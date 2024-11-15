@@ -1,0 +1,120 @@
+/* Общие стили */
+/* General styles */
+/* Stili generali */
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    /* Фоновый цвет */
+    /* Background color */
+    /* Colore di sfondo */
+    /* Color de fondo */
+    color: #333;
+    /* Основной цвет текста */
+    /* Main text color */
+    /* Colore principale del testo */
+    /* Color principal del texto */
+}
+
+/* Шапка */
+/* Header */
+/* Intestazione */
+/* Encabezado */
+header {
+    background-color: #004080;
+    /* Цвет шапки */
+    /* Header color */
+    /* Colore dell'intestazione */
+    /* Color del encabezado */
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    /* Шапка остаётся на экране */
+    /* Header stays visible */
+    /* L'intestazione resta visibile */
+    /* El encabezado permanece visible */
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    /* Плавный переход цвета */
+    /* Smooth color transition */
+    /* Transizione del colore */
+    /* Transición de color */
+}
+
+header nav ul li a:hover {
+    color: #ffcc00;
+    /* Цвет при наведении */
+    /* Hover color */
+    /* Colore al passaggio del mouse */
+    /* Color al pasar el ratón */
+}
+
+/* Переключатель языков */
+/* Language switcher */
+/* Selettore della lingua */
+/* Selector de idioma */
+#language-switcher {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+#language-switcher button {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#language-switcher button:hover {
+    background-color: #ffcc00;
+}
+
+/* Главный баннер */
+/* Hero section */
+/* Sezione principale */
+/* Sección principal */
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('../images/background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+}
+
+/* Подвал */
+/* Footer */
+/* Piè di pagina */
+/* Pie de página */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
