@@ -1,0 +1,18 @@
+# Node.js modules
+node_modules/
+
+# Parcel build output
+dist/
+
+# MacOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Compiled TypeScript
+*.js
+*.js.map
+
+# Compiled CoffeeScript
+*.coffee.js

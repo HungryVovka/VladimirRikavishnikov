@@ -1,0 +1,54 @@
+// EN: Set basic styles for body
+// RU: Задаём базовые стили для body
+// IT: Impostiamo gli stili di base per il body
+// ES: Establecemos los estilos básicos para el body
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+// EN: Style for header section
+// RU: Стили для header
+// IT: Stili per header
+// ES: Estilos para header
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 1rem;
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+
+    li a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// EN: Style for main section
+// RU: Стили для main
+// IT: Stili per main
+// ES: Estilos para main
+main {
+  padding: 2rem;
+}
+
+// EN: Style for footer
+// RU: Стили для footer
+// IT: Stili per footer
+// ES: Estilos para footer
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ddd;
+}
